@@ -1,0 +1,89 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+#	* additional_discount
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 7.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-01 20:54+0000\n"
+"PO-Revision-Date: 2014-04-01 20:54+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: additional_discount
+#: model:ir.model,name:additional_discount.model_account_invoice_tax
+msgid "Invoice Tax"
+msgstr "Impuestos sobre Factura"
+
+#. module: additional_discount
+#: field:account.invoice,add_disc_amt:0
+#: field:purchase.order,add_disc_amt:0
+#: field:sale.order,add_disc_amt:0
+msgid "Additional Disc Amt"
+msgstr "Monto Adicional Desc."
+
+#. module: additional_discount
+#: view:account.invoice:0
+#: field:account.invoice,amount_net:0
+#: view:purchase.order:0
+#: field:purchase.order,amount_net:0
+#: view:sale.order:0
+#: field:sale.order,amount_net:0
+msgid "Net Amount"
+msgstr "Monto Neto"
+
+#. module: additional_discount
+#: model:ir.model,name:additional_discount.model_purchase_order
+msgid "Purchase Order"
+msgstr "Orden de compra"
+
+#. module: additional_discount
+#: help:account.invoice,add_disc_amt:0
+#: help:purchase.order,add_disc_amt:0
+#: help:sale.order,add_disc_amt:0
+msgid "The additional discount on untaxed amount."
+msgstr "El monto adicional sobre el monto sin impuestos."
+
+#. module: additional_discount
+#: help:account.invoice,amount_net:0
+#: help:purchase.order,amount_net:0
+#: help:sale.order,amount_net:0
+msgid "The amount after additional discount."
+msgstr "Monto posterior al descuento adicional."
+
+#. module: additional_discount
+#: model:ir.model,name:additional_discount.model_account_invoice
+msgid "Invoice"
+msgstr "Factura"
+
+#. module: additional_discount
+#: code:addons/additional_discount/common.py:36
+#: code:addons/additional_discount/invoice.py:82
+#, python-format
+msgid "Unable (for now) to compute a global discount with non percent-type taxes"
+msgstr "Unable (for now) to compute a global discount with non percent-type taxes"
+
+#. module: additional_discount
+#: field:account.invoice,add_disc:0
+#: field:purchase.order,add_disc:0
+#: field:sale.order,add_disc:0
+msgid "Additional Discount(%)"
+msgstr "Descuento Adicional(%)"
+
+#. module: additional_discount
+#: code:addons/additional_discount/common.py:35
+#: code:addons/additional_discount/invoice.py:81
+#, python-format
+msgid "Discount error"
+msgstr "Error Descuento"
+
+#. module: additional_discount
+#: model:ir.model,name:additional_discount.model_sale_order
+msgid "Sales Order"
+msgstr "Pedido de venta"
+
